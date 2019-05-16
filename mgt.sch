@@ -1,0 +1,122 @@
+EESchema Schematic File Version 4
+LIBS:mini_kvision-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR?
+U 1 1 5D13F422
+P 7550 4600
+AR Path="/5D13F422" Ref="#PWR?"  Part="1" 
+AR Path="/5D0C3145/5D13F422" Ref="#PWR0203"  Part="1" 
+F 0 "#PWR0203" H 7550 4350 50  0001 C CNN
+F 1 "GND" H 7555 4427 50  0001 C CNN
+F 2 "" H 7550 4600 50  0001 C CNN
+F 3 "" H 7550 4600 50  0001 C CNN
+	1    7550 4600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7550 4600
+Wire Wire Line
+	7550 4600 7550 4800
+$Comp
+L power:GND #PWR?
+U 1 1 5D13F42A
+P 4550 2750
+AR Path="/5D13F42A" Ref="#PWR?"  Part="1" 
+AR Path="/5D0C3145/5D13F42A" Ref="#PWR0201"  Part="1" 
+F 0 "#PWR0201" H 4550 2500 50  0001 C CNN
+F 1 "GND" H 4555 2577 50  0001 C CNN
+F 2 "" H 4550 2750 50  0001 C CNN
+F 3 "" H 4550 2750 50  0001 C CNN
+	1    4550 2750
+	0    1    1    0   
+$EndComp
+NoConn ~ 4550 3450
+NoConn ~ 4550 3350
+NoConn ~ 4550 3250
+NoConn ~ 4550 2250
+NoConn ~ 4550 2350
+NoConn ~ 4550 2450
+NoConn ~ 4550 2550
+Wire Wire Line
+	4550 2950 4550 3050
+Connection ~ 4550 2950
+Connection ~ 4550 2850
+Connection ~ 4550 2750
+Wire Wire Line
+	4550 2850 4550 2950
+Wire Wire Line
+	4550 2750 4550 2850
+NoConn ~ 4550 3550
+Wire Wire Line
+	4550 4600 4550 4500
+Connection ~ 4550 4600
+Wire Wire Line
+	4550 4500 4550 4400
+Connection ~ 4550 4500
+Wire Wire Line
+	4550 4400 4550 4300
+Connection ~ 4550 4400
+Connection ~ 4550 4700
+Wire Wire Line
+	4550 4700 4550 4600
+$Comp
+L power:GND #PWR?
+U 1 1 5D13F446
+P 4550 4700
+AR Path="/5D13F446" Ref="#PWR?"  Part="1" 
+AR Path="/5D0C3145/5D13F446" Ref="#PWR0202"  Part="1" 
+F 0 "#PWR0202" H 4550 4450 50  0001 C CNN
+F 1 "GND" H 4555 4527 50  0001 C CNN
+F 2 "" H 4550 4700 50  0001 C CNN
+F 3 "" H 4550 4700 50  0001 C CNN
+	1    4550 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L FPGA_Xilinx_Artix7:XC7A15T-CPG236 U?
+U 4 1 5D13F44C
+P 6050 4600
+AR Path="/5D13F44C" Ref="U?"  Part="4" 
+AR Path="/5D0C3145/5D13F44C" Ref="U101"  Part="4" 
+F 0 "U101" H 6050 5167 50  0000 C CNN
+F 1 "XC7A15T-CPG236" H 6050 5076 50  0000 C CNN
+F 2 "" H 6050 4600 50  0001 C CNN
+F 3 "" H 6050 4600 50  0000 C CNN
+	4    6050 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Xilinx_Artix7:XC7A15T-CPG236 U?
+U 3 1 5D13F452
+P 6050 2950
+AR Path="/5D13F452" Ref="U?"  Part="3" 
+AR Path="/5D0C3145/5D13F452" Ref="U101"  Part="3" 
+F 0 "U101" H 7330 2996 50  0000 L CNN
+F 1 "XC7A15T-CPG236" H 7330 2905 50  0000 L CNN
+F 2 "" H 6050 2950 50  0001 C CNN
+F 3 "" H 6050 2950 50  0000 C CNN
+	3    6050 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 4300 7550 4400
+Connection ~ 7550 4400
+Wire Wire Line
+	7550 4400 7550 4500
+Connection ~ 7550 4500
+Wire Wire Line
+	7550 4500 7550 4600
+$EndSCHEMATC
